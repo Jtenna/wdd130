@@ -1,3 +1,9 @@
+/* Creating a universal rule for margin*/
+* {
+ margin: 0; 
+ padding: 0;
+ box-sizing: border-box;
+}
 
 nav {
   background-color: steelblue;
@@ -20,6 +26,7 @@ main img {
   border: 1px solid steelblue;
   padding: 2px;
   box-shadow: 0 0 30px gray;
+  float: right;
 }
 
 p {
@@ -32,11 +39,11 @@ main {
   
 aside {
 width: 25em;  
-margin: 20px;
-border: 1px solid rgb(155, 224, 244);
+/*margin: 20px;
+ border: 1px solid rgb(155, 224, 244);
 padding: 20px;
 background-color: rgb(35, 35, 35);
-color: white;
+color: white; */
   }
 
   aside img {
@@ -44,8 +51,25 @@ color: white;
     height: auto;
   }
 
+  /* Adding absolute positioning for the 'aside' heading element*/
+
+  aside h2 {
+    position: relative;
+    top: 35px;
+    left: 40px;
+  }
+
   footer {
     border-top: 1px solid rgb(116, 116, 116);
     margin-top: 40px;
     text-align: center;
+  }
+
+  /* Class selectors*/
+  .box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #1c0101;
   }
