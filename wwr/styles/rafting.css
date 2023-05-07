@@ -36,7 +36,6 @@ h2, h3, h4, h5, h6 {
   article {
     position: absolute;
     background-color: rgba(255, 170, 43, 0.568);
-    opacity: var(--accent2-color);
   }
 
   article img {
