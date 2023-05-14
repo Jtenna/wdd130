@@ -108,8 +108,9 @@ h2, h3, h4, h5, h6 {
  footer{
   background-color:  rgb(58, 225, 247);
   display: flex;
-  justify-content: space-around;
+  justify-content: right;
   align-items: center;
+  padding-right: 80px;
  }
 
  .sociallinks a {
