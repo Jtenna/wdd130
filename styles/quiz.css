@@ -73,8 +73,7 @@
         color: #fff;
         border: none;
         border-radius: .5rem;
-        display: flex;
-
+        display: block;
         padding: .7rem;
         font-size: 1.1rem;
       }
