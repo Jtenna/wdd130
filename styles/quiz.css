@@ -3,13 +3,15 @@
 * {
     margin: 0; 
     padding: 0;
-    box-sizing: border-box; }
+    box-sizing: border-box; 
+}
 
     body {
         background: #fff;
         color: #333;
         font-family: open sans-serif, Georgia, serif;
         font-size: 15px;
+        
       }
 
       header {
@@ -24,7 +26,7 @@
     }
 
     form {
-        width: 550px;
+        width: 600px;
         margin: 0 auto;
         padding: 20px;
         border: 1px solid rgba(0, 0, 0, 0.1);
@@ -57,6 +59,7 @@
       input, select, textarea {
         padding: 0.5rem;
         font-size: 1rem;
+        width: 460px;
       }
 
       input[type="number"] {
