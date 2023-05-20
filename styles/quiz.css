@@ -30,6 +30,8 @@
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 0.5rem;
         background-color: #d6e3eb;
+        display: grid;
+        justify-items: center;
         
       }
 
@@ -73,7 +75,6 @@
         color: #fff;
         border: none;
         border-radius: .5rem;
-        display: block;
         padding: .7rem;
         font-size: 1.1rem;
       }
