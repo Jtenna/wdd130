@@ -42,16 +42,16 @@
         <p class="form-p">Reach us through this form and we will get in touch with you within 24hrs.</p>
         <form>
             <fieldset>
-              <div class="form-item column2">
+              <div class="custom-label">
                 <label for="fullname">Full Name:</label>
                   <input type="text" id="fullname" name="fullname" placeholder="John Doe">
               </div>
-              <div class="form-item">
+              <div class="custom-label">
                 <label for="useremail">Email</label>
                   <input type="email" id="useremail" name="useremail" placeholder="youremail@gmail.com">
               </div>
-              <div class="form-item">
-                  <p>Purpose for messaging us</p>                
+              <div class="custom-label">
+                  <label for="purpose">Purpose for messaging us</label><br>                
                       <input type="radio" id="inquiry" name="purpose" value="inquiry">
                   <label for="inquiry">General Inquiry</label><br>
                        <input type="radio" id="reservation" name="purpose" value="reservation">
@@ -59,13 +59,14 @@
                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
                   <label for="suggestion">Website Suggestion</label>
               </div>
-              <div>
-                <label for="feedback">What's on your mind?</label>
+              <div class="custom-label">
+                <label for="feedback">What's on your mind?</label><br>
                 <textarea id="feedback" name="feedback" rows="4" placeholder="Type here"></textarea>
             </div>
-            <div class="form-item">
-                  <label for="suscribe">Please subscribe me to the monthly newsletter</label>
-                  <input type="checkbox" id="suscribe" name="suscribe">
+            <div class="suscribe">
+                <input type="checkbox" id="suscribe" name="suscribe">
+                  <label for="suscribe">Please subscribe me to the monthly newsletter.</label>
+                  
               </div>
             </fieldset>
             <button type="submit">Send Message</button>
@@ -74,7 +75,7 @@
     <!-- The employee section with associated profile pictures and job title. -->
     <section>
         <h2>Meet Our team</h2>
-        <div class="pics">
+        <div class="pics team">
         <figure><img src="images/employee-one.jpg" alt="Employee Profile Picture" width="300"><figcaption>Edna Smith, HR</figcaption></figure>
         <figure><img src="images/employee-two.jpg" alt="Employee Profile Picture" width="300"><figcaption>George Hall, Supervisor</figcaption></figure>
         <figure><img src="images/employee-three.jpg" alt="Employee Profile Picture" width="300"><figcaption>Peter Cole, Site Inspector</figcaption></figure>
