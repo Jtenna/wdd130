@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <meta name="description" content="Contact Us at Sumo Whitewater Rafting.">
     <meta name="author" content="Justina Eguare">
     <title>Contact Us | Sumo Whitewater Rafting</title>
@@ -20,14 +20,14 @@
     </header>
     <main>
         <!-- The hero element and heading for the Contact Us Page -->
-        <div>
-            <img class="hero" src="images/contact-hero.jpg" alt="Contact us hero image">
-            <h1 class="contact-heading">Contact Us</h1>
+        <div class="hero">
+            <img src="images/contact-hero.jpg" alt="Contact us hero image">
         </div>
+        <div><h1 class="contact-heading">Contact Us</h1></div>
         <!-- Creating the contact area and embedded map section. -->
         <section class="contact-details">
             <div>
-            <!-- <h3>Offical Details</h3> -->
+            <h2>Official Details</h2>
             <p><strong>Address:</strong> 123, Stony Point, Arkansas 72070, United States. </p>
             <p><strong>Phone No:</strong> +1 456-905-783 </p> 
             <p><strong>Email:</strong><a href="mail-to:"> help@sumowhitewaterrafting.com</a></p>
@@ -51,7 +51,7 @@
                   <input type="email" id="useremail" name="useremail" placeholder="youremail@gmail.com">
               </div>
               <div class="custom-label">
-                  <label for="purpose">Purpose for messaging us</label><br>                
+                  <p class="purpose-message">Purpose for messaging us</p>                
                       <input type="radio" id="inquiry" name="purpose" value="inquiry">
                   <label for="inquiry">General Inquiry</label><br>
                        <input type="radio" id="reservation" name="purpose" value="reservation">
@@ -62,11 +62,10 @@
               <div class="custom-label">
                 <label for="feedback">What's on your mind?</label><br>
                 <textarea id="feedback" name="feedback" rows="4" placeholder="Type here"></textarea>
-            </div>
+            </div>         
             <div class="suscribe">
                 <input type="checkbox" id="suscribe" name="suscribe">
                   <label for="suscribe">Please subscribe me to the monthly newsletter.</label>
-                  
               </div>
             </fieldset>
             <button type="submit">Send Message</button>
