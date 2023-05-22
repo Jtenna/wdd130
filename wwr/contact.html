@@ -20,17 +20,22 @@
     </header>
     <main>
         <!-- The hero element and heading for the Contact Us Page -->
-        <div class="contact-hero">
-            <img src="images/contact-hero.jpeg" alt="Contact us hero image">
+        <div>
+            <img class="hero" src="images/contact-hero.jpg" alt="Contact us hero image">
             <h1 class="contact-heading">Contact Us</h1>
         </div>
         <!-- Creating the contact area and embedded map section. -->
-        <div class="split">
+        <section class="contact-details">
+            <div>
+            <!-- <h3>Offical Details</h3> -->
             <p><strong>Address:</strong> 123, Stony Point, Arkansas 72070, United States. </p>
             <p><strong>Phone No:</strong> +1 456-905-783 </p> 
             <p><strong>Email:</strong><a href="mail-to:"> help@sumowhitewaterrafting.com</a></p>
+            </div>
+            <div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13060.750159768824!2d-92.61490555501206!3d35.07704662526151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87cd7a1352b38abf%3A0xe76fae49be8a7ea5!2sStony%20Point%2C%20AR%2072070%2C%20USA!5e0!3m2!1sen!2sng!4v1684707108641!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+            </div>
+        </section>
         <!-- The form intro heading, contact us form and submit button. -->
     <section>
         <h2>Get in Touch</h2>
@@ -41,11 +46,11 @@
                 <label for="fullname">Full Name:</label>
                   <input type="text" id="fullname" name="fullname" placeholder="John Doe">
               </div>
-              <div class="form-item column2">
+              <div class="form-item">
                 <label for="useremail">Email</label>
                   <input type="email" id="useremail" name="useremail" placeholder="youremail@gmail.com">
               </div>
-              <div class="form-item column1">
+              <div class="form-item">
                   <p>Purpose for messaging us</p>                
                       <input type="radio" id="inquiry" name="purpose" value="inquiry">
                   <label for="inquiry">General Inquiry</label><br>
@@ -58,9 +63,9 @@
                 <label for="feedback">What's on your mind?</label>
                 <textarea id="feedback" name="feedback" rows="4" placeholder="Type here"></textarea>
             </div>
-            <div class="form-item column1">
-                  <label for="pet">Please subscribe me to the monthly newsletter</label>
-                  <input type="checkbox" id="pet" name="pet">
+            <div class="form-item">
+                  <label for="suscribe">Please subscribe me to the monthly newsletter</label>
+                  <input type="checkbox" id="suscribe" name="suscribe">
               </div>
             </fieldset>
             <button type="submit">Send Message</button>
