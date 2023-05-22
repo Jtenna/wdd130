@@ -46,6 +46,11 @@ p {
     padding: 20px;
 }
 
+.form-p {
+  text-align: center;
+
+}
+
 h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -70,6 +75,13 @@ h2, h3, h4, h5, h6 {
     height: 60px;
   }
 
+  /* .contact-heading {
+  background-color:  rgba(60, 63, 63, 0.384);
+  padding-left: 100;
+  margin-top: -200px;
+} */
+
+
   article {
     position: absolute;
     background-color: rgba(22, 22, 76, 0.34);
@@ -91,12 +103,13 @@ h2, h3, h4, h5, h6 {
     width: 100%;
   }
 
-.hero img {
+.hero img .contact-hero {
     position: relative;
     width: 100%;
     display: block;
     height: auto;   
  }
+
 
  .pics {
   display: grid;
@@ -129,4 +142,48 @@ figcaption {
   padding: 5px;
   margin-top: -5px;
   text-align: center;
+}
+
+
+form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  background-color: #d6e3eb;
+  display: grid;
+  justify-items: center;
+  
+}
+
+fieldset{
+  /* display: grid; */
+  gap: 0.8rem;
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1.8rem;
+  
+}
+
+/* input, select, textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  /* width: 460px; */
+
+
+
+button {
+  margin: 20px;
+  width: 160px;
+  background-color: #38618C;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .7rem;
+  font-size: 1.1rem;
+}
+
+button:hover {
+  background-color: rgb(28, 35, 59);
 }
