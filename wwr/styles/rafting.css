@@ -157,7 +157,7 @@ form {
   
 }
 
-fieldset{
+ fieldset{
   /* display: grid; */
   gap: 0.8rem;
   margin: 1rem;
@@ -166,11 +166,18 @@ fieldset{
   
 }
 
-/* input, select, textarea {
-  padding: 0.5rem;
-  font-size: 1rem;
-  /* width: 460px; */
+label {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
+}
+
+input, select, textarea {
+  padding: .5rem;
+  font-size: 1rem;
+  /* width: 300px; */
+}
 
 
 button {

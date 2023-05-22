@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content="Contact Us at Sumo Whitewater Rafting.">
     <meta name="author" content="Justina Eguare">
-    <title>contact Us | Sumo Whitewater Rafting</title>
+    <title>Contact Us | Sumo Whitewater Rafting</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
@@ -36,22 +36,25 @@
         <form>
             <fieldset>
               <div class="form-item column2">
-                  <input type="text" id="fullname" name="fullname" placeholder="Full Name">
+                <label for="fullname">Full Name:</label>
+                  <input type="text" id="fullname" name="fullname" placeholder="John Doe">
               </div>
               <div class="form-item column2">
-                  <input type="email" id="useremail" name="useremail" placeholder="Email">
+                <label for="email">Email</label>
+                  <input type="email" id="useremail" name="useremail" placeholder="youremail@gmail.com">
               </div>
               <div class="form-item column1">
-                  <label for="purpose">Purpose for messaging us</label>
-                  <select id="purpose" name="purpose">
-                        <option value="diabled" selected disabled>Select One</option>
-                      <option value="inquiry">General Inquiry</option>
-                      <option value="reservation">Reservation Question</option>
-                      <option value="suggestion">Website Suggestion</option>
-              </select>
+                  <p>Purpose for messaging us</p>                
+                      <input type="radio" id="inquiry" name="purpose" value="inquiry">
+                  <label for="inquiry">General Inquiry</label><br>
+                       <input type="radio" id="reservation" name="purpose" value="reservation">
+                  <label for="reservation">Reservation Question</label><br>
+                       <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                  <label for="suggestion">Website Suggestion</label>
               </div>
               <div>
-                <textarea id="feedback" name="feedback" rows="4" placeholder="What's on your mind?"></textarea>
+                <label for="message">What's on your mind?</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Type here"></textarea>
             </div>
             <div class="form-item column1">
                   <label for="pet">Please subscribe me to the monthly newsletter</label>
