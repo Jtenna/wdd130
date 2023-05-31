@@ -122,11 +122,11 @@ height: 300px;
     height: auto;   
  }
 
- .pics {
+ .pics{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-content: space-around;
-  padding: 0 20px 20px 0;
+  justify-content: space-evenly;
+  padding: 0 10px 20px 0;
  }
 
  .team{
@@ -172,6 +172,13 @@ figcaption {
   
 }
 
+.fig {
+  padding-right: 30px;
+  padding-top: 20px;
+  font-size: 15px;
+  background-color: #00000000;
+}
+
  fieldset{
   margin: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -208,6 +215,54 @@ button {
   font-size: 1rem;
 }
 
-button:hover {
+.trips-intro{
+  margin-top: 250px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+button:hover, .trip-btn:hover {
   background-color: rgb(28, 35, 59);
+}
+
+.box {
+  /* display: flex; */
+  width: 800px;
+  margin: 50px auto;
+  border: 1px solid rgba(0, 0, 0, 0.637);
+  padding: 20px 20px 20px 20px;
+  background-color: #c7dcff;;
+  color: #000000;
+}
+
+.trip-btn:link, .trip-btn:visited {
+    background-color: #38618C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: .5rem;
+    text-decoration: none;
+    text-align: center;
+    /* display: grid;
+       */
+}
+
+table, th, td {
+    border: 1px solid #c0c0c0;
+    border-collapse: collapse;
+    padding: auto;
+    width: 500px;
+    height: 15px;
+    text-align: center;
+    /* display: flex; */
+  
+}
+
+th {
+background-color:#c0c0c0;
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
 }
