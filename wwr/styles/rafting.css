@@ -115,12 +115,39 @@ height: 300px;
     width: 100%;
   }
 
-.hero img {
+.hero img, .hero-home img {
     position: relative;
     width: 100%;
     display: block;
     height: auto;   
  }
+
+ .hero-home, .hero{
+  text-align: center;
+ }
+
+ .hero-home h1{
+  position: absolute;
+  margin-top: -400px;
+  padding-top: 20px;
+  color: rgb(255, 255, 255);
+  background-color:  rgba(36, 45, 46, 0.295);
+  width: 100%;
+  height: 200px;
+ }
+
+ .intro-home a {
+  text-decoration: none;
+  color: #E06D06;
+ }
+
+ .hero-home a {
+ display: block;
+ position: relative;
+ margin-top: -270px;
+ /* width: 300px; */
+ }
+
 
  .pics{
   display: grid;
@@ -215,17 +242,27 @@ button {
   font-size: 1rem;
 }
 
-.trips-intro{
+.intro{
   margin-top: 250px;
   padding-left: 100px;
   padding-right: 100px;
 }
 
-button:hover, .trip-btn:hover {
+.intro-home {
+  /* position: absolute; */
+  margin-top: 280px;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+  padding-bottom: 80px;
+ 
+}
+
+button:hover, .btn:hover {
   background-color: rgb(28, 35, 59);
 }
 
-.box {
+.box, .box-center{
   /* display: flex; */
   width: 800px;
   margin: 50px auto;
@@ -235,7 +272,12 @@ button:hover, .trip-btn:hover {
   color: #000000;
 }
 
-.trip-btn:link, .trip-btn:visited {
+.box-center {
+  text-align: center;
+}
+
+
+.btn{
     background-color: #38618C;
     color: white;
     padding: 10px 20px;
@@ -243,8 +285,6 @@ button:hover, .trip-btn:hover {
     border-radius: .5rem;
     text-decoration: none;
     text-align: center;
-    /* display: grid;
-       */
 }
 
 table, th, td {
